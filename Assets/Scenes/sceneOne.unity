@@ -712,6 +712,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  clickMarkerPrefab: {fileID: 7010076093965283406, guid: b43224ab9b21c414293a9d2226b2354e, type: 3}
 --- !u!195 &1209361871
 NavMeshAgent:
   m_ObjectHideFlags: 0
