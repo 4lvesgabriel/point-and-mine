@@ -426,7 +426,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60.000004
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -452,13 +452,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365186537}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2154993, y: 0.13778277, z: -0.030729316, w: 0.9662462}
-  m_LocalPosition: {x: -3.93, y: 8.2, z: -13.5}
+  m_LocalRotation: {x: 0.313403, y: -0.00000014587512, z: 0.000000048143143, w: 0.94962025}
+  m_LocalPosition: {x: 0, y: 11.6, z: -13.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 12.359, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 25.146, y: 0, z: 0}
 --- !u!114 &365186541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -920,11 +920,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TrackerSettings:
     BindingMode: 3
-    PositionDamping: {x: 1, y: 20, z: 1}
+    PositionDamping: {x: 0, y: 0, z: 0}
     AngularDampingMode: 0
-    RotationDamping: {x: 20, y: 20, z: 20}
+    RotationDamping: {x: 0, y: 0, z: 0}
     QuaternionDamping: 1
-  FollowOffset: {x: -3.93, y: 6.6, z: -13.5}
+  FollowOffset: {x: 0, y: 10, z: -13.5}
 --- !u!114 &1920162300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -949,7 +949,7 @@ MonoBehaviour:
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 60.000004
+    FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -976,13 +976,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920162297}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.21549925, y: 0.13778274, z: -0.03072931, w: 0.96624625}
-  m_LocalPosition: {x: -3.93, y: 8.2, z: -13.5}
+  m_LocalRotation: {x: 0.31340298, y: -0.00000014587512, z: 0.000000048143136, w: 0.94962025}
+  m_LocalPosition: {x: 0, y: 11.6, z: -13.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 12.359, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 16.231, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
