@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -30,5 +29,14 @@ public class SpawnManager : MonoBehaviour
             pontosDisponiveis.RemoveAt(indexPonto);
         }
 
+    }
+
+    public void GerarUmNovoItem()
+    { 
+        GameObject[] pontos = GameObject.FindGameObjectsWithTag("SpawnPoint");
+        int indexPonto = Random.Range(0, pontos.Length);
+        int indexItem = Random.Range(0, itensParaGerar.Length);
+
+        Instantiate(itensParaGerar[indexItem], pontos[indexPonto].transform.position, Quaternion.identity);
     }
 }
