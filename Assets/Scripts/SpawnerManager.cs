@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnManager : MonoBehaviour
+public class SpawnerManager : MonoBehaviour
 {
     public GameObject[] itensParaGerar;
     public int quantidadeTotal = 5;
